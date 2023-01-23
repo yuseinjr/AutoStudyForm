@@ -22,7 +22,7 @@ function butotnClick(){
     hour24  = dateObj.getHours();
 
     // 午前か午後を判定
-    var hourStr = hour24 < 12 ? 'AM' : 'PM';
+    var hourStr = hour24 < 13 ? 'AM' : 'PM';
 
  
     
